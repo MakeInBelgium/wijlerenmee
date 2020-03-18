@@ -12,7 +12,7 @@
     }
 
     .hero-bg {
-        background: $light-orange url(../img/hero-bg.jpg) no-repeat;
+        background: $light-blue no-repeat;
         background-size: cover;
     }
 
@@ -45,7 +45,7 @@
     }
 
     @include media-breakpoint-up(md) {
-        background-image: linear-gradient(to right, $white 50%, $light-orange 50%);
+        background-image: linear-gradient(to right, $white 50%, $light-blue 50%);
 
         .column-section {
             max-width: (map-get($container-max-widths, md) / 2) - $grid-gutter-width;

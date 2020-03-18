@@ -4,12 +4,13 @@ $white: #fff;
 $orange: #ff5d47;
 $dark: #13132d;
 $blue: #a5d6d7;
+$light-blue: #deedee;
 $light-orange: #fff7f3;
 
 $theme-colors: (
-  primary: $orange,
-  secondary: $blue,
-  light: $light-orange
+  primary: $blue,
+  secondary: $light-orange,
+  light: $light-blue
 );
 
 $body-color: $dark;
