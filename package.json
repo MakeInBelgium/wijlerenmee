@@ -4,7 +4,11 @@
   "description": "Bijdrage leveren? Dat kan! * Maak een fork en een pull request. * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "del-cli \"{.cache,dist}\"",
+    "start:fr": "parcel index_fr.html --out-dir dist/fr",
+    "start:nl": "parcel index_nl.html --out-dir dist/nl",
+    "build:fr": "parcel build index_fr.html --out-dir dist/fr",
+    "build:nl": "parcel build index_nl.html --out-dir dist/nl"
   },
   "repository": {
     "type": "git",
@@ -18,6 +22,12 @@
   },
   "homepage": "https://github.com/MakeInBelgium/naaiactie#readme",
   "dependencies": {
-    "bootstrap": "^4.4.1"
+    "bootstrap": "~4.4.1",
+    "jquery": "~3.4.1"
+  },
+  "devDependencies": {
+    "del-cli": "~3.0.0",
+    "parcel": "~1.12.4",
+    "sass": "~1.26.3"
   }
 }
