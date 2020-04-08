@@ -1,28 +1,30 @@
 .btn {
   text-transform: lowercase;
   &.btn-primary {
-    background: #ff5e47;
-    border-color: #ff5e47;
+    background: #284B63;
+    border-color: #284B63;
     color: #fff;
     margin-bottom: 4px;
+    border-radius: 5px;
 
     &:hover,
     &:active {
-      background: darken(#ff5e47, 10%);
-      border-color: darken(#ff5e47, 10%);
+      background: lighten(#284B63, 10%);
+      border-color: lighten(#284B63, 10%);
       color: #fff;
     }
   }
   &.btn-secondary {
-    color: #212529;
-    background-color: #a5d6d7;
-    border-color: #a5d6d7;
+    color: #ffff;
+    background-color: #3C6E71;
+    border-color: #3C6E71;
     margin-bottom: 4px;
+    border-radius: 5px;
 
     &:hover,
     &:active {
-      background: darken(#a5d6d7, 10%);
-      border-color: darken(#a5d6d7, 10%);
+      background: lighten(#3C6E71, 10%);
+      border-color: lighten(#3C6E71, 10%);
       color: #fff;
     }
   }

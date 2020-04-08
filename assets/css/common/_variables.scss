@@ -1,19 +1,21 @@
 /** colors **/
-$black: #000;
-$white: #fff;
-$orange: #ff5d47;
-$dark: #13132d;
-$blue: #a5d6d7;
-$light-blue: #deedee;
-$light-orange: #fff7f3;
+$black: #000; /* not important */
+$white: #fff; /* everything have white even the nav bar */
+$dark-slate-gray: #284B63; /* all the orange text */
+$myrtle-green: #3C6E71; /* all the writing even the titles of the sections */
+$jet: #353535;/* the color of some of the sections */
+$gainsboro: #D9D9D9; /* the color of one button  nd hygiene section*/
+//$light-orange: #fff7f3; /* i didn't see anything that changed ??*/
 
 $theme-colors: (
-  primary: $blue,
-  secondary: $orange,
-  light: $light-blue
+  primary:$myrtle-green ,
+  secondary: $jet,
+  dark: $dark-slate-gray,
+  light: $gainsboro,
+  light-white: $white,
 );
 
-$body-color: $dark;
+$body-color: $jet;
 
 /** container sizes **/
 $grid-breakpoints: (
@@ -39,7 +41,7 @@ $spacing-md: 6rem;
 $spacing-lg: 8rem;
 
 /** Navbar settings **/
-$navbar-dark-color: rgba($white, 0.75);
+$navbar-dark-color:lighten($white, 0.90);
 $navbar-dark-hover-color: rgba($white, 0.85);
 $navbar-dark-active-color: $white;
 $navbar-dark-disabled-color: rgba($white, 0.5);
