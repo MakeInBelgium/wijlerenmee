@@ -506,15 +506,25 @@ Met Praatbox.be is het mogelijk om dat afscheid te delen met vrienden en familie
 </section-->
 
 <section id="feedback" class="bg-dark">
-  <div class="container">
-    <h2 class="text-center text-light-white">feedback geven</h2>
-<p class="text-light text-center">Heb je vragen of suggesties rond #wijrouwenmee? </p><p class="text-light text-center">Heb je tips die je wil delen of zoek je meer informatie? Laat dan hier een berichtje na.</p>
-    <div class="tip-grid">
-      <article class="text-center">
-        <a href="https://naseer912310.typeform.com/to/URuwPf" class="btn btn-secondary btn-lg mt-5" target="_blank"> feedback </a>
-      </article>
-    </div>
+  <!--<div class="container">-->
+  <h2 class="text-center p-5 text-light-white">feedback geven</h2>
+  <p class="text-light text-center">Heb je vragen of suggesties rond #wijrouwenmee? </p>
+  <p class="text-light text-center">Heb je tips die je wil delen of zoek je meer informatie? Laat dan hier een berichtje na.</p>
+  <div id="my-embedded-typeform"
+       style="width: 100%; height: 300px;">
+
   </div>
+  <script src="https://embed.typeform.com/embed.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    window.addEventListener("DOMContentLoaded", function() {
+      const el = document.getElementById("my-embedded-typeform");
+      window.typeformEmbed.makeWidget(el, "https://naseer912310.typeform.com/to/URuwPf", {
+        hideFooter: true,
+        hideHeaders: true,
+        opacity: 0
+      });
+    });
+  </script>
 </section>
 <section id="share">
   <div class="container text-center">
