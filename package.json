@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "del-cli \"{.cache,dist}\"",
     "start:fr": "parcel index_fr.html --out-dir dist/fr",
-    "start:nl": "parcel index_nl.html --out-dir dist/nl",
+    "start:nl": "parcel index.html --out-dir dist/nl",
     "build:fr": "parcel build index_fr.html --out-dir dist/fr",
     "build:nl": "parcel build index_nl.html --out-dir dist/nl"
   },
