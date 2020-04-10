@@ -2,11 +2,11 @@
   "name": "naaiactie",
   "version": "1.0.0",
   "description": "Bijdrage leveren? Dat kan! * Maak een fork en een pull request. * Meld problemen via de [issues](https://github.com/MakeInBelgium/naaiactie/issues/new).",
-  "main": "index.html",
+  "main": "index_nl.html",
   "scripts": {
     "clean": "del-cli \"{.cache,dist}\"",
     "start:fr": "parcel index_fr.html --out-dir dist/fr",
-    "start:nl": "parcel index.html --out-dir dist/nl",
+    "start:nl": "parcel index_nl.html --out-dir dist/nl",
     "build:fr": "parcel build index_fr.html --out-dir dist/fr",
     "build:nl": "parcel build index_nl.html --out-dir dist/nl"
   },
