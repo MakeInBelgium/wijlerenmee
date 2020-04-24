@@ -6,9 +6,10 @@ $myrtle-green: #3C6E71; /* all the writing even the titles of the sections */
 $jet: #353535;/* the color of some of the sections */
 $gainsboro: #D9D9D9; /* the color of one button nd hygiene section*/
 $red: #F94645; /* the color of links in the text*/
+$light-blue: #429bf7; /* the color of education! and the nav bar */
 
 $theme-colors: (
-  primary:$myrtle-green ,
+  primary:$light-blue,
   secondary: $jet,
   dark: $dark-slate-gray,
   light: $gainsboro,

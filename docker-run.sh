@@ -1,9 +1,9 @@
 #!/bin/bash
 
 # run with this cmd:
-# ./docker-run.sh maakjemondmasker.be
+# ./docker-run.sh wijlerenmee.be
 
-DOMAIN_NAME=${1:-maakjemondmasker.be}
+DOMAIN_NAME=${1:-wijlerenmee.be}
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 if [ $BRANCH == master ]

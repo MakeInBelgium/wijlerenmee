@@ -1,4 +1,4 @@
-BUCKET="wijrouwenmee"
+BUCKET="wijlerenmee"
 DAY_30="2592000"
 
 aws --profile f7-wrm \
