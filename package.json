@@ -24,7 +24,7 @@
   "dependencies": {
     "bootstrap": "~4.4.1",
     "jquery": "~3.5.0",
-    "localhost": "^0.3.0"
+    "localhost": "^0.3.7"
   },
   "devDependencies": {
     "del-cli": "~3.0.0",
